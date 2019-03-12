@@ -17,6 +17,5 @@ class Genre < ActiveRecord::Base
     self.artists.tap do |artist|
       artist.name
     end
-
   end
 end
