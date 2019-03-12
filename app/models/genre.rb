@@ -17,6 +17,6 @@ class Genre < ActiveRecord::Base
     self.artists.collect do |artist|
       artist.name
     end
-    binding.pry
+  #  binding.pry
   end
 end
